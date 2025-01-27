@@ -6,9 +6,10 @@ int main() {
     if(a>0){
         printf("False");
     }
-    else[
+    else{
         printf("True");
-    ]
+    }
+    
 
     
     return 0;
