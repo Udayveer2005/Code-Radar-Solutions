@@ -6,6 +6,5 @@ int main() {
     scanf("%d",&a);
     scanf("%d",&b);
     printf("%u",y);
-
     return 0;
 }
