@@ -17,7 +17,7 @@ int main() {
         printf("%c",'D');
     }
     else{
-        printf("%c",'F')
+        printf("%c",'F');
     }
 
     return 0;
