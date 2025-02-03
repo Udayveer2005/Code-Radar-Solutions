@@ -40,6 +40,9 @@ int main() {
         case 12:
         printf("%d",31);
         break;
+        default:
+        printf("Invalid month");
+        break;
 
     }
 
