@@ -26,19 +26,19 @@ int main() {
         printf("%d",31);
         break;
         case 8:
-        printf("%d",30);
+        printf("%d",31);
         break;
         case 9:
-        printf("%d",31);
+        printf("%d",30);
         break;
         case 10:
-        printf("%d",30);
-        break;
-        case 11:
         printf("%d",31);
         break;
-        case 12:
+        case 11:
         printf("%d",30);
+        break;
+        case 12:
+        printf("%d",31);
         break;
 
     }
