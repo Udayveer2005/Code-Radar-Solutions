@@ -3,7 +3,7 @@
 int main() {
     int a,b,after_shift;
     scanf("%d %d",&a,&b);
-    after_shift=(1 << b)|a;
+    after_shift=(a>> b) & 1;
     printf("%d",after_shift);
 
     return 0;
