@@ -1,18 +1,17 @@
 #include <stdio.h>
-#include <stdint.h>
 
 int main() {
-    uint32_t num, flipped_num;
+    int num, flipped_num;
     
     // Input the number
-    
-    scanf("%u", &num);
+    scanf("%d", &num);
     
     // Flip all the bits
-    flipped_num = ~num;
+    flipped_num = ~num + 1;
     
     // Output the result
-    printf("%u", flipped_num);
+    printf("%d", flipped_num);
     
     return 0;
 }
+
