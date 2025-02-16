@@ -4,6 +4,10 @@ int main() {
     int a;
     scanf("%d",&a);
     switch(a){
+        default:
+        printf("Invalid");
+        break;
+
         case 1:
         printf("Monday");
         break;
