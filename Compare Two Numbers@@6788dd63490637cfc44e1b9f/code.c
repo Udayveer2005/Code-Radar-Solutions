@@ -1,12 +1,11 @@
 #include <stdio.h>
-
-int main() {
+int main(){
     int a,b;
     scanf("%d %d",&a,&b);
     if(a==b){
         printf("Equal");
     }
-    else if(a!=b){
+    else if{
         if(a>b){
             printf("First");
         }
@@ -14,6 +13,5 @@ int main() {
             printf("Second");
         }
     }
-    
     return 0;
 }
