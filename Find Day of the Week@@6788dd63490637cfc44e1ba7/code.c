@@ -4,6 +4,9 @@ int main() {
     int a;
     scanf("%d",&a);
     switch(a){
+        default:
+        printf("Invalid");
+        break;
         
 
         case 1:
@@ -27,12 +30,7 @@ int main() {
         case 7:
         printf("Sunday");
         break;
-        default:
-        printf("Invalid");
-        break;
-        default:
-        printf("Invalid");
-        break;
+        
     }
     return 0;
 }
