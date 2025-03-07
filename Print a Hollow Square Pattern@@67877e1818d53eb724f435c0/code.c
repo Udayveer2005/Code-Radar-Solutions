@@ -2,9 +2,6 @@
 
 int main() {
     int n, i, j;
-    
-    // Taking input for size of the square
-    printf("Enter the size of the square: ");
     scanf("%d", &n);
 
     for (i = 1; i <= n; i++) { 
