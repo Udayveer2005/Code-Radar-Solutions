@@ -6,11 +6,10 @@ int main() {
 
     for (i = 1; i <= n; i++) { 
         for (j = 1; j <= n; j++) { 
-            // Print '*' for first row, last row, first column, or last column
             if (i == 1 || i == n || j == 1 || j == n) 
-                printf("* ");
+                printf("*");
             else
-                printf("  "); // Print space for hollow part
+                printf("  "); 
         }
         printf("\n");
     }
